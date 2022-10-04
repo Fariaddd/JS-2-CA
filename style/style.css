@@ -5,7 +5,7 @@
     font-family: sans-serif;
 }
 .navbar{
-    background: #131313;
+    background: #040C1E;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -28,7 +28,10 @@
 #navbar__logo img{
     width: 100px;
     cursor: pointer;
-    padding: 0;
+   
+}
+#navbar__logo img {
+    border-radius: 10px;
 }
 
 .navbar__menu{
@@ -36,6 +39,7 @@
     align-items: center;
     list-style: none;
     text-align: center;
+    padding: 0 auto;
   
 }
 
@@ -110,7 +114,7 @@
         height: 50vh;
         font-size: 1.6rem;
     }
-    #navbar__logo{
+    #navbar__logo {
         width: 100px;
         padding-left: 50px;
     }
